@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="theatre">
+  <div class="clock-container" id="clockBtn">
+    <img src="C:/Users/Admin/.gemini/antigravity/brain/8b7e1301-b1d3-4f22-b74d-297d202762bf/.user_uploaded/media_1794492436773_8bfa477d.jpg" alt="Clock set to 12" class="clock" id="clockImg" />
+  </div>
+  <script>
+    const img = document.getElementById('clockImg');
+    img.addEventListener('load', () => console.log('✅ Clock image loaded successfully.'));
+    img.addEventListener('error', (e) => console.error('❌ Clock image failed to load:', e));
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
